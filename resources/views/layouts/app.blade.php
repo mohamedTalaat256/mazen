@@ -54,7 +54,7 @@
             @yield('content')
         </main>
 
-        @include('layouts.includes.contact')
+       {{--  @include('layouts.includes.contact') --}}
 
     </div>
 

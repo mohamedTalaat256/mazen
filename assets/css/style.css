@@ -28,7 +28,7 @@ body {
   }
   
   a {
-    color:  var(--white)
+    color:  var(--white);
     text-decoration: none;
     transition: all 0.5s ease;
   }
@@ -39,7 +39,7 @@ body {
   }
   
   .link-two {
-    color:  var(--white)
+    color:  var(--white);
     transition: all 0.5s ease;
   }
   

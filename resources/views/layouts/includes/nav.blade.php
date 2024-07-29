@@ -9,7 +9,7 @@
         </button>
 
 
-        <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      {{--   <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
             <ul class="navbar-nav w-100 d-flex justify-content-between">
 
 
@@ -90,7 +90,7 @@
                 </div>
 
             </ul>
-        </div>
+        </div> --}}
 
         <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse"
             data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
