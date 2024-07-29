@@ -1,0 +1,206 @@
+
+.project_path{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+.compound_title{
+    font-weight: bolder;
+
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+ 
+.price_start_from{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    color: #b3b3b3;
+}
+.compound_numbers{
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+
+.rectangle-btn{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.rectangle-btn-call{
+    background-color: #616161;
+}
+
+.rectangle-btn-whatsapp{
+    background-color: #24aa18;
+    color: #ffffff;
+}
+
+
+.divider{
+    height: 2px;
+    background-color: rgb(109, 109, 109);
+}
+
+
+.details-btn{
+    background-color: rgba(179, 179, 179, 0.7);
+    border-radius: 12px;
+    max-width: 180px;
+    min-width: 160px;
+    letter-spacing: 2px;
+}
+.details-btn i{
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+.details-btn:hover{
+    color: #ffffff;
+    background-color: rgb(59, 56, 56,  0.3);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+
+.aminities-btn{
+    width: fit-content;
+    text-align: start;
+    background-color: rgb(179, 179, 179, 0.7);
+    border-radius: 25px;
+    font-size: 19px;
+}
+
+.aminities-btn:hover{
+    background-color: rgb(59, 56, 56, 0.3);
+}
+
+
+.compound_overview{
+    color: #c9c9c9;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+
+.property_card{
+    background-color: #343434;
+    border-radius: 12px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.property_card img{
+    border-radius: 12px 12px 0px 0px;
+    transition: transform .3s;
+}
+
+.property_card .card-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.property_card .card-title .address{
+    font-size: 1.1rem;
+    color: #919191;
+}
+.property_card .resale-btn{
+    color: #000000;
+    background-color: #ffa515;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 5px;
+    line-height: 20px;
+    border-radius: 8px;
+    
+    transition: 0.3s;
+}
+.resale-btn:hover{
+    background-color: #ce8207;
+}
+.property_card .contact-btn{
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 30px;
+}
+
+.property_card .call-btn{
+    background-color: #616161;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.property_card .whatsapp-btn{
+    background-color: #24aa18;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.property_card .whatsapp-btn:hover{
+    background-color: #1d8613;
+}
+.property_card .call-btn:hover{
+    background-color: rgb(126, 126, 126);
+}
+
+.card-icon{
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #3a3a3a;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.card-icon:hover{
+    color: #3a3a3a;
+    background-color: #ffffff;
+}
+/* home */
+
+
+.top_compound_card{
+    background-color: #343434;
+    border-radius: 14px;
+    color: #ffffff;
+}
+.top_compound_card img{
+    border-radius: 14px;
+    transition: transform .3s;
+}
+
+.top_compound_card_overlay{
+    border-radius: 14px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+.top_compound_card_title {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #ffffff;
+    width: 100%;
+
+    z-index: 3;
+}
+
+@media screen and (min-width: 600px) {
+
+    .my_project {
+      margin-top: 120px;
+    }
+    
+  }
